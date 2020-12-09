@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+    {{ super() }}
+    500
+{% endblock %}
+
+{% block content %}
+    <h1>
+        Lo sentimos ha sucedido un error al intentar acceder al servidor
+    </h1>
+    <p>
+        {{error}}
+    </p>
+{% endblock %}
